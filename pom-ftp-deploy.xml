@@ -1,0 +1,57 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+
+	<groupId>org.jzy3d</groupId>
+	<artifactId>jzy3d-extensions</artifactId>
+	<version>0.9.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Jzy3d FTP deployement project</name>
+
+    <modules>
+        <!--
+        <module>jzy3d-svm-mapper</module>
+        <module>jzy3d-tools-libsvm</module>
+        <module>jzy3d-g2d</module>
+        <module>jzy3d-depthpeeling</module>
+        pb with gephi toolkit<module>jzy3d-graphs</module>-->
+    </modules>
+
+    <distributionManagement>
+      <repository>
+        <id>jzy3d-ftp-maven</id>
+        <name>Jzy3d Maven Folder</name>
+        <url>ftp://www.jzy3d.org/v1/maven/releases</url>
+      </repository>
+      <snapshotRepository>
+        <id>jzy3d-ftp-maven</id>
+        <name>Jzy3d Maven Folder SNAPSHOTS</name>
+        <url>ftp://www.jzy3d.org/v1/maven/snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>
+
+
+    <build>
+        <extensions>
+          <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+             <artifactId>wagon-ftp</artifactId>
+             <version>1.0-beta-6</version>
+          </extension>
+        </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.5</source>
+                        <target>1.5</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

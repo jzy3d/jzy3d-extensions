@@ -1,0 +1,21 @@
+cd jzy3d-tools-libsvm/
+git push
+cd ..
+
+cd jzy3d-svm-mapper/
+git push
+cd ..
+
+cd jzy3d-g2d/
+git push
+cd ..
+
+cd jzy3d-graphs/
+git push
+cd ..
+
+cd jzy3d-depthpeeling/
+git push
+cd ..
+
+

@@ -1,0 +1,15 @@
+[submodule "jzy3d-depthpeeling"]
+	path = jzy3d-depthpeeling
+	url = https://github.com/jzy3d/jzy3d-depthpeeling
+[submodule "jzy3d-g2d"]
+	path = jzy3d-g2d
+	url = https://github.com/jzy3d/jzy3d-g2d
+[submodule "jzy3d-graphs"]
+	path = jzy3d-graphs
+	url = https://github.com/jzy3d/jzy3d-graphs
+[submodule "jzy3d-svm-mapper"]
+	path = jzy3d-svm-mapper
+	url = https://github.com/jzy3d/jzy3d-svm-mapper
+[submodule "jzy3d-tools-libsvm"]
+	path = jzy3d-tools-libsvm
+	url = https://github.com/jzy3d/jzy3d-tools-libsvm
