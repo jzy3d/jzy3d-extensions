@@ -17,6 +17,18 @@
         <version>0.9.1-SNAPSHOT</version>
     </parent>
 
+    <repositories>
+      <repository>
+         <id>jzy3d-snapshots</id>
+         <name>Jzy3d Snapshots</name>
+         <url>http://www.jzy3d.org/maven/snapshots</url>
+      </repository>
+      <repository>
+         <id>jzy3d-releases</id>
+         <name>Jzy3d Snapshots</name>
+         <url>http://www.jzy3d.org/maven/releases</url>
+      </repository>
+   </repositories>
 
     <modules>
         <module>jzy3d-svm-mapper</module>
