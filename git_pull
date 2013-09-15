@@ -1,21 +1,27 @@
+echo ***************************************
 cd jzy3d-tools-libsvm/
 git pull --rebase
 cd ..
 
+echo ***************************************
 cd jzy3d-svm-mapper/
 git pull --rebase
 cd ..
 
+echo ***************************************
 cd jzy3d-g2d/
 git pull --rebase
 cd ..
 
+echo ***************************************
 cd jzy3d-graphs/
 git pull --rebase
 cd ..
 
+echo ***************************************
 cd jzy3d-depthpeeling/
 git pull --rebase
 cd ..
 
+git pull --rebase
 

@@ -18,4 +18,6 @@ cd jzy3d-depthpeeling/
 git push
 cd ..
 
+git push origin master
+
 
