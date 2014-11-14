@@ -21,12 +21,12 @@
       <repository>
          <id>jzy3d-snapshots</id>
          <name>Jzy3d Snapshots</name>
-         <url>http://www.jzy3d.org/maven/snapshots</url>
+         <url>http://maven.jzy3d.org/snapshots</url>
       </repository>
       <repository>
          <id>jzy3d-releases</id>
          <name>Jzy3d Snapshots</name>
-         <url>http://www.jzy3d.org/maven/releases</url>
+         <url>http://maven.jzy3d.org/releases</url>
       </repository>
    </repositories>
 
@@ -35,6 +35,7 @@
         <module>jzy3d-tools-libsvm</module>
         <module>jzy3d-g2d</module>
         <module>jzy3d-depthpeeling</module>
+        <!-- <module>jzy3d-spectro</module> -->
         <!-- pb with gephi toolkit<module>jzy3d-graphs</module>-->
     </modules>
 
