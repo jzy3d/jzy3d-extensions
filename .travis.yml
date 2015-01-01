@@ -1,7 +1,18 @@
+
+# http://docs.travis-ci.com/user/deployment/custom/
+# http://docs.travis-ci.com/user/build-configuration
+# http://docs.travis-ci.com/user/encrypting-files/
+
 language: java
 jdk:
   - oraclejdk8
   - oraclejdk7
   - openjdk7
   - openjdk6
-  
+
+env:
+  global:
+    - "FTP_USER=user"
+    - "FTP_PASSWORD=password"
+
+after_success: mvn deploy
