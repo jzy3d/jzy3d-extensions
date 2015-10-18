@@ -6,7 +6,7 @@
 
 	<groupId>org.jzy3d</groupId>
 	<artifactId>jzy3d-extensions</artifactId>
-	<version>0.9.2-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Jzy3d Extensions Project</name>
@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.jzy3d</groupId>
         <artifactId>jzy3d-master</artifactId>
-        <version>0.9.2-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <repositories>
